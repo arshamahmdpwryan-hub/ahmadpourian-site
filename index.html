@@ -2,25 +2,27 @@
 <html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="google-site-verification" content="jUBrg9uJK_-3tWYYPkguLeRZmpOljdh8Zc9UFWeOqCo">
-<title>مجموعه تخصصی احمدپوریان | تأسیسات، برق‌کاری، لوله‌کشی و بازسازی</title>
 
-  <meta name="description" content="مجموعه تخصصی احمدپوریان؛ اجرای تخصصی تأسیسات، برق‌کاری ساختمان، لوله‌کشی، بازسازی آپارتمان، شست‌وشوی مبلمان، نصب سایبان، نرده، آلاچیق و سمپاشی.">
-  <meta name="keywords" content="بازسازی تهران, برق کاری تهران, لوله کشی تهران, تاسیسات تهران, شستشوی مبلمان تهران, مبل شویی تهران, سایبان تهران, نرده تهران, آلاچیق تهران, سمپاشی تهران, خدمات فنی تهران">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>گروه فنی و مهندسی احمدپوریان | تأسیسات، برق‌کاری، لوله‌کشی و بازسازی</title>
+
+  <meta name="description" content="گروه فنی و مهندسی احمدپوریان؛ اجرای تخصصی تأسیسات، برق‌کاری ساختمان، لوله‌کشی، بازسازی آپارتمان، شست‌وشوی مبلمان، نصب سایبان، نرده، آلاچیق و سمپاشی.">
+
+  <meta name="keywords" content="تأسیسات, برق‌کاری ساختمان, لوله‌کشی, بازسازی ساختمان, بازسازی آپارتمان, شست‌وشوی مبلمان, مبل‌شویی, سایبان, نرده, آلاچیق, سمپاشی, خدمات فنی">
 
   <style>
     * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
     }
 
     body {
       font-family: Tahoma, Arial, sans-serif;
-      background: #ffffff;
+      background: #fff;
       color: #171717;
       line-height: 1.9;
     }
@@ -30,76 +32,37 @@
       color: inherit;
     }
 
-    .container {
-      width: 92%;
-      max-width: 1150px;
-      margin: auto;
-    }
-
-    /* Header */
     header {
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: rgba(255,255,255,0.96);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid #eeeeee;
-    }
-
-    .nav {
-      min-height: 75px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
     }
 
     .logo {
-      font-size: 21px;
-      font-weight: 900;
-      color: #151515;
-    }
-
-    .logo span {
-      color: #b28a32;
+      font-size: 20px;
+      font-weight: bold;
+      color: #b28a3b;
     }
 
     nav {
       display: flex;
       gap: 25px;
-      align-items: center;
-    }
-
-    nav a {
       font-size: 14px;
-      color: #444;
-      transition: 0.3s;
     }
 
     nav a:hover {
-      color: #b28a32;
+      color: #b28a3b;
     }
 
-    .call-btn {
-      background: #171717;
-      color: #fff;
-      padding: 9px 17px;
-      border-radius: 8px;
-      font-size: 13px;
-      transition: 0.3s;
-    }
-
-    .call-btn:hover {
-      background: #b28a32;
-      color: #fff;
-    }
-
-    /* Hero */
     .hero {
-      padding: 105px 0 90px;
-      background:
-        linear-gradient(135deg, #ffffff 0%, #f7f7f7 55%, #eeeeee 100%);
-      border-bottom: 1px solid #eeeeee;
+      padding: 100px 7%;
+      background: #f7f7f5;
     }
 
     .hero-content {
@@ -107,69 +70,71 @@
     }
 
     .small-title {
-      color: #b28a32;
-      font-size: 14px;
-      font-weight: bold;
+      color: #b28a3b;
+      font-size: 15px;
       margin-bottom: 12px;
+      font-weight: bold;
     }
 
-    .hero h1 {
-      font-size: clamp(36px, 6vw, 65px);
-      line-height: 1.25;
-      margin-bottom: 20px;
-      font-weight: 900;
-      letter-spacing: -1px;
-    }
-
-    .hero h1 span {
-      color: #b28a32;
+    h1 {
+      font-size: 48px;
+      line-height: 1.4;
+      margin-bottom: 22px;
     }
 
     .hero p {
       color: #555;
-      max-width: 700px;
       font-size: 17px;
-      margin-bottom: 30px;
+      max-width: 750px;
     }
 
-    .hero-buttons {
+    .buttons {
+      margin-top: 30px;
       display: flex;
       gap: 12px;
       flex-wrap: wrap;
     }
 
     .btn {
-      display: inline-block;
       padding: 13px 23px;
-      border-radius: 9px;
+      border-radius: 8px;
       font-size: 14px;
-      font-weight: bold;
-      transition: 0.3s;
+      border: 1px solid #171717;
+      transition: .2s;
+      cursor: pointer;
     }
 
-    .btn-dark {
+    .btn-main {
       background: #171717;
       color: #fff;
     }
 
-    .btn-dark:hover {
-      background: #b28a32;
+    .btn-main:hover {
+      background: #b28a3b;
+      border-color: #b28a3b;
+    }
+
+    .btn-gold {
+      background: #b28a3b;
+      color: #fff;
+      border-color: #b28a3b;
+    }
+
+    .btn-gold:hover {
+      background: #171717;
+      border-color: #171717;
     }
 
     .btn-light {
       background: #fff;
-      border: 1px solid #dddddd;
-      color: #222;
     }
 
     .btn-light:hover {
-      border-color: #b28a32;
-      color: #b28a32;
+      background: #f1f1f1;
     }
 
-    /* Sections */
     section {
-      padding: 85px 0;
+      padding: 80px 7%;
     }
 
     .section-title {
@@ -177,29 +142,28 @@
       margin-bottom: 45px;
     }
 
-    .section-title .line {
-      width: 45px;
-      height: 3px;
-      background: #b28a32;
-      margin: 12px auto;
-    }
-
     .section-title h2 {
       font-size: 32px;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
     }
 
     .section-title p {
       color: #777;
-      font-size: 14px;
     }
 
-    /* Services */
+    .seo-text {
+      max-width: 850px;
+      margin: -15px auto 45px;
+      text-align: center;
+      color: #555;
+      font-size: 16px;
+    }
+
     .services {
       background: #fafafa;
     }
 
-    .services-grid {
+    .service-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
@@ -207,195 +171,128 @@
 
     .service-card {
       background: #fff;
-      border: 1px solid #e8e8e8;
-      border-radius: 15px;
-      padding: 27px;
-      transition: 0.3s;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.035);
+      border: 1px solid #eee;
+      padding: 30px;
+      border-radius: 12px;
+      transition: .25s;
     }
 
     .service-card:hover {
-      transform: translateY(-5px);
-      border-color: #c9aa65;
-      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+      transform: translateY(-4px);
+      border-color: #d7c3a0;
     }
 
     .service-number {
-      color: #b28a32;
+      color: #b28a3b;
       font-size: 13px;
       font-weight: bold;
-      margin-bottom: 8px;
     }
 
     .service-card h3 {
-      font-size: 21px;
-      margin-bottom: 15px;
-      color: #171717;
-    }
-
-    .service-card ul {
-      list-style: none;
-    }
-
-    .service-card li {
-      color: #666;
-      font-size: 13px;
-      padding: 5px 0;
-      border-bottom: 1px solid #f1f1f1;
-    }
-
-    .service-card li:last-child {
-      border-bottom: none;
-    }
-
-    .service-card li::before {
-      content: "—";
-      color: #b28a32;
-      margin-left: 7px;
-    }
-
-    /* About */
-    .about {
-      background: #fff;
-    }
-
-    .about-box {
-      background: #f7f7f7;
-      border-radius: 18px;
-      padding: 45px;
-      border: 1px solid #eeeeee;
-    }
-
-    .about-box h2 {
-      font-size: 30px;
-      margin-bottom: 18px;
-    }
-
-    .about-box p {
-      color: #666;
-      font-size: 15px;
-      max-width: 850px;
-    }
-
-    .tagline {
-      margin-top: 25px;
+      margin: 12px 0;
       font-size: 20px;
-      font-weight: bold;
-      color: #b28a32;
     }
 
-    /* Portfolio */
-    .portfolio {
-      background: #fafafa;
-    }
-
-    .portfolio-box {
-      background: #fff;
-      border: 1px solid #e7e7e7;
-      border-radius: 18px;
-      padding: 45px 25px;
-      text-align: center;
-    }
-
-    .portfolio-box h3 {
-      font-size: 24px;
-      margin-bottom: 12px;
-    }
-
-    .portfolio-box p {
-      color: #777;
+    .service-card p {
+      color: #666;
       font-size: 14px;
     }
 
-    /* Contact */
-    .contact {
-      background: #171717;
-      color: #fff;
+    .service-card ul {
+      margin-top: 15px;
+      padding-right: 18px;
+      color: #555;
+      font-size: 14px;
     }
 
-    .contact .section-title h2 {
-      color: #fff;
-    }
-
-    .contact .section-title p {
-      color: #aaa;
-    }
-
-    .contact-box {
-      max-width: 650px;
+    .about {
+      max-width: 900px;
       margin: auto;
       text-align: center;
     }
 
-    .phone {
-      display: inline-block;
-      margin: 20px 0;
-      font-size: 28px;
-      font-weight: bold;
-      color: #d1ad5e;
-      direction: ltr;
+    .about h2 {
+      font-size: 32px;
+      margin-bottom: 18px;
     }
 
-    .contact-text {
-      color: #bbb;
-      margin-bottom: 25px;
+    .about p {
+      color: #555;
     }
 
-    /* Footer */
-    footer {
-      background: #111;
-      color: #999;
+    .portfolio {
+      background: #fafafa;
       text-align: center;
-      padding: 25px 15px;
-      font-size: 12px;
     }
 
-    footer strong {
+    .portfolio-box {
+      max-width: 850px;
+      margin: auto;
+      padding: 55px 25px;
+      border: 1px dashed #ccc;
+      border-radius: 12px;
+      color: #777;
+    }
+
+    .contact {
+      text-align: center;
+      background: #171717;
       color: #fff;
     }
 
-    /* Mobile */
+    .contact h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .contact p {
+      color: #ccc;
+      margin-bottom: 25px;
+    }
+
+    .phone {
+      display: inline-block;
+      background: #b28a3b;
+      color: #fff;
+      padding: 14px 30px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111;
+      color: #999;
+      font-size: 13px;
+    }
+
     @media (max-width: 850px) {
       nav {
         display: none;
       }
 
-      .services-grid {
-        grid-template-columns: 1fr 1fr;
-      }
-    }
-
-    @media (max-width: 600px) {
-      .hero {
-        padding: 75px 0 65px;
+      h1 {
+        font-size: 35px;
       }
 
-      .hero h1 {
-        font-size: 39px;
-      }
-
-      .hero p {
-        font-size: 15px;
-      }
-
-      section {
-        padding: 65px 0;
-      }
-
-      .services-grid {
+      .service-grid {
         grid-template-columns: 1fr;
       }
 
-      .about-box {
-        padding: 30px 22px;
+      section,
+      .hero {
+        padding: 60px 5%;
       }
 
-      .phone {
-        font-size: 23px;
+      .buttons {
+        flex-direction: column;
       }
 
-      .logo {
-        font-size: 17px;
+      .btn {
+        text-align: center;
+        width: 100%;
       }
     }
   </style>
@@ -404,182 +301,171 @@
 <body>
 
 <header>
-  <div class="container nav">
 
-    <div class="logo">
-      احمد<span>پوریان</span>
-    </div>
-
-    <nav>
-      <a href="#services">خدمات</a>
-      <a href="#about">درباره ما</a>
-      <a href="#portfolio">نمونه‌کار</a>
-      <a href="#contact">تماس</a>
-    </nav>
-
-    <a class="call-btn" href="tel:09107800411">
-      تماس مستقیم
-    </a>
-
+  <div class="logo">
+    گروه فنی و مهندسی احمدپوریان
   </div>
+
+  <nav>
+    <a href="#services">خدمات</a>
+    <a href="#about">درباره ما</a>
+    <a href="#portfolio">نمونه‌کار</a>
+    <a href="#contact">ارتباط با ما</a>
+  </nav>
+
 </header>
 
 <section class="hero">
-  <div class="container">
 
-    <div class="hero-content">
+  <div class="hero-content">
 
-      <div class="small-title">
-        مجموعه تخصصی احمدپوریان
-      </div>
+    <div class="small-title">
+      اجرای تخصصی خدمات فنی و مهندسی
+    </div>
 
-      <h1>
-        اجرای تخصصی<br>
-        <span>خدمات فنی و بازسازی</span>
-      </h1>
+    <h1>
+      خدمات فنی، تأسیسات و بازسازی
+      با اجرای دقیق و حرفه‌ای
+    </h1>
 
-      <p>
-        ارائه خدمات تخصصی بازسازی و امور فنی ساختمان در تهران؛
-        با تمرکز بر اجرای دقیق، کیفیت کار و استفاده از متریال مناسب.
-      </p>
+    <p>
+      گروه فنی و مهندسی احمدپوریان ارائه‌دهنده خدمات
+      تأسیسات، برق‌کاری ساختمان، لوله‌کشی، بازسازی
+      و مجموعه‌ای از خدمات فنی و اجرایی ساختمان.
+    </p>
 
-      <div class="hero-buttons">
-        <a class="btn btn-dark" href="#services">
-          مشاهده خدمات
-        </a>
+    <div class="buttons">
 
-        <a class="btn btn-light" href="tel:09107800411">
-          تماس با مجموعه
-        </a>
-      </div>
+      <a class="btn btn-gold" href="#">
+        درخواست خدمات
+      </a>
+
+      <a class="btn btn-main" href="#contact">
+        ارتباط با ما
+      </a>
+
+      <a class="btn btn-light" href="#services">
+        مشاهده خدمات
+      </a>
+
+      <a class="btn btn-light" href="#">
+        نمونه‌کار
+      </a>
 
     </div>
 
   </div>
+
 </section>
 
 <section class="services" id="services">
 
-  <div class="container">
+  <div class="section-title">
+    <h2>خدمات تخصصی</h2>
+    <p>اجرای مجموعه‌ای از خدمات فنی و ساختمانی</p>
+  </div>
 
-    <div class="section-title">
-      <h2>خدمات تخصصی</h2>
-      <div class="line"></div>
-      <p>خدمات فنی و اجرایی مجموعه احمدپوریان</p>
+  <p class="seo-text">
+    گروه فنی و مهندسی احمدپوریان در زمینه تأسیسات،
+    برق‌کاری ساختمان، لوله‌کشی، بازسازی آپارتمان،
+    شست‌وشوی مبلمان، نصب سایبان، ساخت و نصب نرده
+    و آلاچیق و خدمات سمپاشی فعالیت می‌کند.
+  </p>
+
+  <div class="service-grid">
+
+    <div class="service-card">
+      <div class="service-number">01</div>
+      <h3>بازسازی آپارتمان</h3>
+      <p>اجرای خدمات بازسازی و نوسازی فضاهای ساختمانی.</p>
+      <ul>
+        <li>بازسازی داخلی</li>
+        <li>تعمیرات ساختمانی</li>
+        <li>تغییر و نوسازی فضا</li>
+      </ul>
     </div>
 
-    <div class="services-grid">
+    <div class="service-card">
+      <div class="service-number">02</div>
+      <h3>برق‌کاری ساختمان</h3>
+      <p>اجرای خدمات برق‌کاری و رفع مشکلات برق ساختمان.</p>
+      <ul>
+        <li>سیم‌کشی</li>
+        <li>رفع ایرادات برق</li>
+        <li>اجرای تأسیسات برقی</li>
+      </ul>
+    </div>
 
-      <div class="service-card">
-        <div class="service-number">01</div>
-        <h3>بازسازی آپارتمان</h3>
-        <ul>
-          <li>بازسازی کامل واحد</li>
-          <li>بازسازی آشپزخانه</li>
-          <li>بازسازی سرویس و حمام</li>
-          <li>تخریب و اجرای مجدد</li>
-          <li>اصلاح و نوسازی فضا</li>
-        </ul>
-      </div>
+    <div class="service-card">
+      <div class="service-number">03</div>
+      <h3>لوله‌کشی و تأسیسات</h3>
+      <p>اجرای خدمات لوله‌کشی و تأسیسات ساختمانی.</p>
+      <ul>
+        <li>لوله‌کشی</li>
+        <li>تعمیرات تأسیسات</li>
+        <li>رفع نشتی و ایرادات</li>
+      </ul>
+    </div>
 
-      <div class="service-card">
-        <div class="service-number">02</div>
-        <h3>برق‌کاری ساختمان</h3>
-        <ul>
-          <li>سیم‌کشی و برق‌کشی</li>
-          <li>رفع اتصالی و خرابی</li>
-          <li>نصب کلید و پریز</li>
-          <li>نصب چراغ و لوستر</li>
-          <li>عیب‌یابی برق ساختمان</li>
-        </ul>
-      </div>
+    <div class="service-card">
+      <div class="service-number">04</div>
+      <h3>شست‌وشوی مبلمان</h3>
+      <p>شست‌وشوی تخصصی انواع مبلمان و سرویس‌های خانگی.</p>
+      <ul>
+        <li>شست‌وشوی مبل</li>
+        <li>پاک‌سازی لکه‌ها</li>
+        <li>شست‌وشوی تخصصی</li>
+      </ul>
+    </div>
 
-      <div class="service-card">
-        <div class="service-number">03</div>
-        <h3>لوله‌کشی و تأسیسات</h3>
-        <ul>
-          <li>لوله‌کشی آب سرد و گرم</li>
-          <li>رفع نشتی و ترکیدگی</li>
-          <li>رفع گرفتگی لوله</li>
-          <li>تعمیر و تعویض اتصالات</li>
-          <li>اجرای تأسیسات در بازسازی</li>
-        </ul>
-      </div>
+    <div class="service-card">
+      <div class="service-number">05</div>
+      <h3>نصب سایبان</h3>
+      <p>ساخت و نصب انواع سایبان برای فضاهای مختلف.</p>
+      <ul>
+        <li>نصب سایبان</li>
+        <li>اجرای سازه</li>
+        <li>تعمیر و نصب</li>
+      </ul>
+    </div>
 
-      <div class="service-card">
-        <div class="service-number">04</div>
-        <h3>شست‌وشوی مبلمان</h3>
-        <ul>
-          <li>شست‌وشوی انواع مبلمان</li>
-          <li>شست‌وشوی مبل در محل</li>
-          <li>پاک‌سازی آلودگی و لکه</li>
-          <li>شست‌وشوی اصولی پارچه</li>
-          <li>استفاده از تجهیزات مناسب</li>
-        </ul>
-      </div>
+    <div class="service-card">
+      <div class="service-number">06</div>
+      <h3>نرده و آلاچیق</h3>
+      <p>ساخت و نصب نرده و آلاچیق برای فضاهای ساختمانی.</p>
+      <ul>
+        <li>ساخت نرده</li>
+        <li>نصب نرده</li>
+        <li>ساخت آلاچیق</li>
+      </ul>
+    </div>
 
-      <div class="service-card">
-        <div class="service-number">05</div>
-        <h3>نصب سایبان</h3>
-        <ul>
-          <li>اجرای انواع سایبان</li>
-          <li>نصب سازه و اتصالات</li>
-          <li>سایبان پارکینگ و حیاط</li>
-          <li>اندازه‌گیری و اجرای دقیق</li>
-          <li>نصب متناسب با فضا</li>
-        </ul>
-      </div>
-
-      <div class="service-card">
-        <div class="service-number">06</div>
-        <h3>نرده و آلاچیق</h3>
-        <ul>
-          <li>ساخت و نصب نرده</li>
-          <li>اجرای نرده برای ساختمان</li>
-          <li>ساخت آلاچیق</li>
-          <li>اجرای سازه متناسب با فضا</li>
-          <li>نصب و اجرای اصولی</li>
-        </ul>
-      </div>
-
-      <div class="service-card">
-        <div class="service-number">07</div>
-        <h3>سمپاشی</h3>
-        <ul>
-          <li>اجرای سمپاشی اصولی</li>
-          <li>استفاده از متریال مناسب</li>
-          <li>استفاده از دستگاه‌های مناسب</li>
-          <li>اجرای دقیق متناسب با محیط</li>
-          <li>رعایت اصول ایمنی هنگام اجرا</li>
-        </ul>
-      </div>
-
+    <div class="service-card">
+      <div class="service-number">07</div>
+      <h3>سمپاشی</h3>
+      <p>ارائه خدمات سمپاشی برای فضاهای مختلف.</p>
+      <ul>
+        <li>سمپاشی محیط</li>
+        <li>کنترل آفات</li>
+        <li>اجرای خدمات تخصصی</li>
+      </ul>
     </div>
 
   </div>
 
 </section>
 
-<section class="about" id="about">
+<section id="about">
 
-  <div class="container">
+  <div class="about">
 
-    <div class="about-box">
+    <h2>گروه فنی و مهندسی احمدپوریان</h2>
 
-      <h2>مجموعه تخصصی احمدپوریان</h2>
-
-      <p>
-        مجموعه تخصصی احمدپوریان با ارائه خدمات متنوع فنی،
-        بازسازی و اجرایی در تهران فعالیت می‌کند.
-        هدف ما اجرای دقیق، تمیز و اصولی پروژه‌ها و ارائه خدمات
-        متناسب با نیاز هر مشتری است.
-      </p>
-
-      <div class="tagline">
-        تخصص در اجرا، دقت در جزئیات
-      </div>
-
-    </div>
+    <p>
+      تخصص در اجرا، دقت در جزئیات.
+      هدف ما ارائه خدمات فنی با اجرای منظم،
+      دقت بالا و توجه به کیفیت کار است.
+    </p>
 
   </div>
 
@@ -587,65 +473,34 @@
 
 <section class="portfolio" id="portfolio">
 
-  <div class="container">
+  <div class="section-title">
+    <h2>نمونه‌کار</h2>
+    <p>نمونه پروژه‌های اجراشده در این بخش قرار می‌گیرند.</p>
+  </div>
 
-    <div class="section-title">
-      <h2>نمونه‌کارها</h2>
-      <div class="line"></div>
-      <p>پروژه‌های اجراشده توسط مجموعه احمدپوریان</p>
-    </div>
-
-    <div class="portfolio-box">
-
-      <h3>نمونه‌کارهای مجموعه</h3>
-
-      <p>
-        تصاویر پروژه‌ها به‌زودی در این بخش قرار می‌گیرند.
-      </p>
-
-    </div>
-
+  <div class="portfolio-box">
+    نمونه‌کارها به‌زودی در این بخش قرار خواهند گرفت.
   </div>
 
 </section>
 
 <section class="contact" id="contact">
 
-  <div class="container">
+  <h2>ارتباط با ما</h2>
 
-    <div class="section-title">
-      <h2>ارتباط با مجموعه</h2>
-      <div class="line"></div>
-      <p>برای دریافت اطلاعات و هماهنگی با ما تماس بگیرید.</p>
-    </div>
+  <p>
+    برای دریافت اطلاعات بیشتر و درخواست خدمات
+    با گروه فنی و مهندسی احمدپوریان تماس بگیرید.
+  </p>
 
-    <div class="contact-box">
-
-      <p class="contact-text">
-        جهت مشاوره و هماهنگی اجرای خدمات فنی و بازسازی
-      </p>
-
-      <a class="phone" href="tel:09107800411">
-        09107800411
-      </a>
-
-      <br>
-
-      <a class="btn btn-light" href="tel:09107800411">
-        تماس با مجموعه
-      </a>
-
-    </div>
-
-  </div>
+  <a class="phone" href="tel:09107800411">
+    09107800411
+  </a>
 
 </section>
 
 <footer>
-  <p>
-    <strong>مجموعه تخصصی احمدپوریان</strong>
-    | خدمات فنی و بازسازی در تهران
-  </p>
+  گروه فنی و مهندسی احمدپوریان | خدمات فنی و بازسازی
 </footer>
 
 </body>
